@@ -10,7 +10,7 @@ class Employee:
 
     def display_emp_count(self):
         "Displays the number of employees"
-        print(f"Total number of employee(s) is {Employee.emp_count}")
+        print(f"Total number of employee(s) is {Employee.empCount}")
 
     def display_employee(self):
         print("Name : ", self.name, ", Salary: ", self.salary)
