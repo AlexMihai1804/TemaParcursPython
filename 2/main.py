@@ -7,16 +7,19 @@ import pandas as pd
 def ex1(df):
     df.plot()  # cream graficul
     plt.savefig('grafic1.png')  # salvam graficul ca imagine
+    plt.close()
 
 
 def ex2(df):
     df.head(8).plot()  # cream graficul cu primele 8 inregistrari
     plt.savefig('grafic2.png')  # salvam graficul ca imagine
+    plt.close()
 
 
 def ex3(df):
     df.tail(16)[['Durata', 'Puls']].plot()  # cream graficul cu ultimele 16 inregistrari pentru coloanele Durata si Puls
     plt.savefig('grafic3.png')  # salvam graficul ca imagine
+    plt.close()
 
 
 def main():
